@@ -37,9 +37,3 @@ Create React website with using:
 <br>
 
 ![alt text](img/cart.png)
-
-## Contact page
-<br>
-
-![alt text](img_pages/contact.png)
-
