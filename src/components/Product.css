@@ -1,0 +1,57 @@
+.img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.picture:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.span1 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: orangered;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.6rem;
+}
+
+.span2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 1.5rem;
+}
+
+.text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text h4 {
+  font-size: 1rem;
+  margin-top: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  height: 20px;
+}
+
+.text h5 {
+  color: orangered;
+  font-size: 1.1em;
+  font-weight: 600;
+}
